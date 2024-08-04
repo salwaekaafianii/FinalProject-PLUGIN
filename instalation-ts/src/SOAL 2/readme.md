@@ -33,7 +33,7 @@ let lirikLagu: {
   - `songLyrics` (string): Lirik lagu dalam format string. 
   - `songLyricsArr` (array of string): Lirik lagu dalam bentuk array, setiap elemen adalah baris lirik.
  
-### SOAL 2A
+# SOAL 2A
 ```
 let ubahData: { artist: string; songTitle: string } = {
     ...lirikLagu.data,
@@ -51,7 +51,7 @@ console.log(ubahData);
   - `songTitle` diubah menjadi "UI UX Designer".
 - `console.log(ubahData)` digunakan untuk menampilkan objek ubahData ke konsol, sehingga kita bisa melihat hasil perubahan yang telah dibuat.
 
-### SOAL 2B
+# SOAL 2B
 ```
 let ambilData: string = lirikLagu.data.songLyricsArr[1];
     console.log(ambilData);
