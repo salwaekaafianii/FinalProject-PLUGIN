@@ -11,7 +11,7 @@
    - `<header>`: Bagian atas halaman dengan menu navigasi.
      - `<nav>`: Menyediakan tautan navigasi ke berbagai bagian halaman menggunakan list (`<ul>` dan `<li>`).
    - `<main>`: Bagian utama dengan empat bagian: Hallo, Tentang Saya, Pendidikan, Keahlian, dan Kontak.
-     - `<section class="hallo">`: Menampilkan sambutan dan tautan sosial.
+     - `<section class="hallo">`: Menampilkan sambutan dan link media sosial.
      - `<section id="about" class="about">`: Bagian tentang diri Anda dengan foto profil dan deskripsi.
      - `<section id="education" class="education">`: Menampilkan informasi pendidikan.
      - `<section id="skills" class="skills">`: Menampilkan keahlian dengan ikon dan deskripsi.
