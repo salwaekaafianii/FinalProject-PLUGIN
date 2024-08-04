@@ -7,7 +7,7 @@ function printTriangle(height: number): void {
 
 printTriangle(7);
 ```
-## Penjelasan
+**Penjelasan**
 - `function printTriangle(height: number): void` : mendeklarasikan sebuah fungsi bernama printTriangle yang menerima satu parameter height bertipe number dan tidak mengembalikan nilai (void).
 - `height` adalah parameter yang menentukan tinggi dari segitiga yang akan dicetak.
 - Loop `for` dimulai dengan `let i = 0`, yang berarti iterasi pertama dari loop akan dimulai dengan i setara dengan 0.
