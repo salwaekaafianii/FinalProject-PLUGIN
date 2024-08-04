@@ -44,12 +44,12 @@ let ubahData: { artist: string; songTitle: string } = {
 console.log(ubahData);
 ```
 **Penjelasan**
-- `ubahData` objek baru yang dihasilkan dengan menggunakan spread operator (...).
-- Spread operator digunakan untuk menyalin semua properti dari objek lirikLagu.data ke dalam objek baru ubahData.
-- Setelah menyalin semua properti, properti artist dan songTitle diubah nilainya sesuai dengan yang ditentukan:
+- `ubahData`: variabel bertipe objek baru yang dihasilkan dengan menggunakan spread operator (...).
+- Spread operator digunakan untuk menyalin semua properti dari objek `lirikLagu.data` ke dalam objek baru `ubahData`.
+- Setelah menyalin semua properti, properti `artist` dan `songTitle` diubah nilainya sesuai dengan yang ditentukan:
   - `artist` diubah menjadi "Salwa Eka Afiani".
   - `songTitle` diubah menjadi "UI UX Designer".
-- `console.log(ubahData)` digunakan untuk menampilkan objek ubahData ke konsol, sehingga kita bisa melihat hasil perubahan yang telah dibuat.
+- `console.log(ubahData)`: fungsi yang digunakan untuk menampilkan objek `ubahData` ke konsol, sehingga kita bisa melihat hasil perubahan yang telah dibuat.
 
 # SOAL 2B
 ```
@@ -57,9 +57,9 @@ let ambilData: string = lirikLagu.data.songLyricsArr[1];
     console.log(ambilData);
 ```
 **Penjelasan**
-- `ambilData` : variabel yang menyimpan baris lirik lagu yang diambil dari array songLyricsArr.
+- `ambilData` : variabel yang menyimpan baris lirik lagu yang diambil dari array `songLyricsArr`.
 - `lirikLagu.data.songLyricsArr[1]`:  digunakan untuk mengambil elemen pada indeks ke-1 dari array tersebut. Karena indeks dimulai dari 0, maka elemen yang diambil adalah baris kedua dari lirik lagu. 
-- `console.log(ambilData);` : fungsi yang akan mencetak baris kedua dari lirik lagu ke konsol.
+- `console.log(ambilData);`: fungsi yang akan mencetak baris kedua dari lirik lagu ke konsol.
 
 
 
