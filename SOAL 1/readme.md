@@ -1,6 +1,6 @@
-HTML
-1. Struktur Umum
-`<!DOCTYPE html>`: Mendefinisikan dokumen ini sebagai HTML5.
+# HTML
+## 1. Struktur Umum
+-`<!DOCTYPE html>`: Mendefinisikan dokumen ini sebagai HTML5.
 <html lang="id">: Tag root yang menentukan bahasa halaman ini adalah Bahasa Indonesia.
 <head>: Bagian metadata dari dokumen, termasuk pengaturan karakter, viewport, dan link ke stylesheet CSS.
 <body>: Bagian utama dari dokumen yang berisi konten halaman web.
