@@ -8,7 +8,7 @@ function tentukanGrade(rataRata: number): string {
   }
 ```
 **Penjelasan**
-- Fungsi ini menerima parameter rataRata bertipe number.
+- Fungsi ini menerima parameter `rataRata` bertipe number.
 - Fungsi ini mengembalikan sebuah string yang merupakan grade (nilai huruf) berdasarkan rentang nilai:
   - A untuk nilai rata-rata 90 atau lebih.
   - B untuk nilai rata-rata antara 80 hingga 89.
@@ -35,7 +35,7 @@ function hitungRataRatadanGrade(
 }
 ```
 **Penjelasan**
-- Fungsi ini menerima empat parameter, yaitu nilai untuk `webProgramming, computerProgramming, statistics, dan databaseSystems`, semuanya berupa angka (number).
+- Fungsi ini menerima empat parameter, yaitu nilai untuk `webProgramming`, `computerProgramming`, `statistics`, dan `databaseSystems`, semuanya berupa angka (number).
 - Pertama, fungsi ini memeriksa apakah semua nilai berada dalam rentang 0 hingga 100 menggunakan metode `some` pada array yang berisi keempat nilai tersebut. Jika ada nilai yang kurang dari 0 atau lebih dari 100, fungsi akan mengembalikan pesan kesalahan.
 - Jika semua nilai valid, fungsi ini menghitung rata-rata dari keempat nilai tersebut.
 - Kemudian, fungsi ini memanggil `tentukanGrade` dengan `rataRata` sebagai argumen untuk mendapatkan grade yang sesuai.
@@ -49,6 +49,6 @@ const result = hitungRataRatadanGrade(85, 90, 78, 88);
   console.log(result);   
 ```
 **Penjelasan**
-- Kode ini untuk memanggil fungsi hitungRataRatadanGrade dengan nilai 85, 90, 78, dan 88 untuk webProgramming, computerProgramming, statistics, dan databaseSystems masing-masing.
+- Kode ini untuk memanggil fungsi `hitungRataRatadanGrade` dengan nilai 85, 90, 78, dan 88 untuk webProgramming, computerProgramming, statistics, dan databaseSystems masing-masing.
 - Hasilnya disimpan dalam variabel result dan kemudian dicetak ke konsol. Output akan menunjukkan rata-rata nilai dan grade yang sesuai.
 
