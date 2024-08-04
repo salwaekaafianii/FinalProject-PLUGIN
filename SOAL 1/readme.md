@@ -8,8 +8,7 @@
 **2. Bagian Header**
 - `<header>`: Memuat elemen navigasi yang tetap di bagian atas halaman.
 - `<nav>`: Membungkus menu navigasi.
-- `<ul>`: Daftar menu navigasi dengan elemen
-- `<li>` sebagai item menu yang berisi link ke bagian berbeda dari halaman.
+- `<ul>`: Daftar menu navigasi dengan elemen `<li>` sebagai item menu yang berisi link ke bagian berbeda dari halaman.
 
 **3. Bagian Utama**
 - `<main>`: Konten utama halaman web.
