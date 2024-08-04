@@ -24,7 +24,7 @@ let lirikLagu: {
     }
 };
 ```
-## Penjelasan
+**Penjelasan**
 - `lirikLagu` : variabel bertipe objek yang memiliki dua properti: status dan data. 
 - `status` : tipe boolean yang menunjukkan apakah data lirik lagu valid atau tidak. 
 - `data` : objek yang memuat informasi mengenai lagu, dengan properti: 
@@ -56,7 +56,7 @@ console.log(ubahData);
 let ambilData: string = lirikLagu.data.songLyricsArr[1];
     console.log(ambilData);
 ```
-## Penjelasan
+**Penjelasan**
 - `ambilData` : variabel yang menyimpan baris lirik lagu yang diambil dari array songLyricsArr.
 - `lirikLagu.data.songLyricsArr[1]`:  digunakan untuk mengambil elemen pada indeks ke-1 dari array tersebut. Karena indeks dimulai dari 0, maka elemen yang diambil adalah baris kedua dari lirik lagu. 
 - `console.log(ambilData);` : fungsi yang akan mencetak baris kedua dari lirik lagu ke konsol.
