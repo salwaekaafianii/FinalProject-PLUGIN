@@ -23,7 +23,7 @@
 
 # CSS 
 ## 1. Aturan Umum
-- `{ margin: 0; padding: 0; box-sizing: border-box; }`: Menghapus margin dan padding default dari semua elemen dan menetapkan box-sizing agar padding dan border dimasukkan dalam total lebar dan tinggi elemen.
+- `*.{ margin: 0; padding: 0; box-sizing: border-box; }`: Menghapus margin dan padding default dari semua elemen dan menetapkan box-sizing agar padding dan border dimasukkan dalam total lebar dan tinggi elemen.
 
 ## 2. Gaya Body
 - body: Mengatur font, ukuran teks, warna, dan latar belakang halaman.
