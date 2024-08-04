@@ -44,4 +44,4 @@
    - `footer`: Memberikan gaya dasar untuk bagian footer dengan warna latar belakang, teks, dan padding.
 
 **5. Responsivitas:**
-    - `@media (max-width: 1200px)`, `@media (max-width: 992px)`, `@media (max-width: 768px)`, `@media (max-width: 576px)`: Mengatur gaya untuk ukuran layar yang berbeda untuk memastikan tampilan yang baik pada perangkat yang berbeda, termasuk pengaturan lebar header, ukuran gambar, dan tata letak.
+   - `@media (max-width: 1200px)`, `@media (max-width: 992px)`, `@media (max-width: 768px)`, `@media (max-width: 576px)`: Mengatur gaya untuk ukuran layar yang berbeda untuk memastikan tampilan yang baik pada perangkat yang berbeda, termasuk pengaturan lebar header, ukuran gambar, dan tata letak.
