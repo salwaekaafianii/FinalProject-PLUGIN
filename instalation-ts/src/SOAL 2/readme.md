@@ -1,5 +1,4 @@
-```typescript
-let lirikLagu: {
+`let lirikLagu: {
     status: boolean;
     data: {
         artist: string;
@@ -29,7 +28,7 @@ let lirikLagu: {
         - artist (string): Nama artis. 
         - songTitle (string): Judul lagu. 
         - songLyrics (string): Lirik lagu dalam format string. 
-        - songLyricsArr (array of string): Lirik lagu dalam bentuk array, setiap elemen adalah baris lirik.
+        - songLyricsArr (array of string): Lirik lagu dalam bentuk array, setiap elemen adalah baris lirik.`
 
 ### SOAL 2A
 
