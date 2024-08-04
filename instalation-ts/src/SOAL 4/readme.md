@@ -7,7 +7,7 @@ function tentukanGrade(rataRata: number): string {
     return 'E';
   }
 ```
-## Penjelasan
+**Penjelasan**
 - Fungsi ini menerima parameter rataRata bertipe number.
 - Fungsi ini mengembalikan sebuah string yang merupakan grade (nilai huruf) berdasarkan rentang nilai:
   - A untuk nilai rata-rata 90 atau lebih.
@@ -43,7 +43,7 @@ function hitungRataRatadanGrade(
         - rataRata.toFixed(2) adalah metode yang digunakan untuk membatasi jumlah angka desimal pada variabel rataRata menjadi dua tempat desimal.
             - Misalnya, jika rataRata adalah 85.2534, maka `rataRata.toFixed(2)` akan menghasilkan '85.25'.
 
-### Contoh Penggunaan
+**Contoh Penggunaan**
 ```
 const result = hitungRataRatadanGrade(85, 90, 78, 88);
   console.log(result);   
