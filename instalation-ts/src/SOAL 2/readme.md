@@ -24,6 +24,7 @@ let lirikLagu: {
     }
 };
 
+## Penjelasan
     - lirikLagu : variabel bertipe objek yang memiliki dua properti: status dan data. 
     - status : tipe boolean yang menunjukkan apakah data lirik lagu valid atau tidak. 
     - data : objek yang memuat informasi mengenai lagu, dengan properti: 
