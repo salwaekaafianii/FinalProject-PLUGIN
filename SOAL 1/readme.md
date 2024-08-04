@@ -15,7 +15,7 @@
      - `<section id="about" class="about">`: Bagian tentang diri Anda dengan foto profil dan deskripsi.
      - `<section id="education" class="education">`: Menampilkan informasi pendidikan.
      - `<section id="skills" class="skills">`: Menampilkan keahlian dengan ikon dan deskripsi.
-     - `<section id="contact" class="contact">`: Bagian kontak dengan formulir dan tautan media sosial.
+     - `<section id="contact" class="contact">`: Bagian kontak dengan formulir dan link media sosial.
    - `<footer>`: Bagian bawah halaman dengan hak cipta.
 
 ## CSS
