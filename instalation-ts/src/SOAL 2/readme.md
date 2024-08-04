@@ -25,13 +25,13 @@ let lirikLagu: {
 };
 ```
 ## Penjelasan
-    - lirikLagu : variabel bertipe objek yang memiliki dua properti: status dan data. 
-    - status : tipe boolean yang menunjukkan apakah data lirik lagu valid atau tidak. 
-    - data : objek yang memuat informasi mengenai lagu, dengan properti: 
-        - artist (string): Nama artis. 
-        - songTitle (string): Judul lagu. 
-        - songLyrics (string): Lirik lagu dalam format string. 
-        - songLyricsArr (array of string): Lirik lagu dalam bentuk array, setiap elemen adalah baris lirik.
+- `lirikLagu` : variabel bertipe objek yang memiliki dua properti: status dan data. 
+- `status` : tipe boolean yang menunjukkan apakah data lirik lagu valid atau tidak. 
+- `data` : objek yang memuat informasi mengenai lagu, dengan properti: 
+  - `artist` (string): Nama artis. 
+  - `songTitle` (string): Judul lagu. 
+  - `songLyrics` (string): Lirik lagu dalam format string. 
+  - `songLyricsArr` (array of string): Lirik lagu dalam bentuk array, setiap elemen adalah baris lirik.
  
 ## SOAL 2A
 
