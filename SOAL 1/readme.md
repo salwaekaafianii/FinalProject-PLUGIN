@@ -1,32 +1,31 @@
 # HTML
 ## 1. Struktur Umum
 -`<!DOCTYPE html>`: Mendefinisikan dokumen ini sebagai HTML5.
-<html lang="id">: Tag root yang menentukan bahasa halaman ini adalah Bahasa Indonesia.
-<head>: Bagian metadata dari dokumen, termasuk pengaturan karakter, viewport, dan link ke stylesheet CSS.
-<body>: Bagian utama dari dokumen yang berisi konten halaman web.
+-`<html lang="id">`: Tag root yang menentukan bahasa halaman ini adalah Bahasa Indonesia.
+-`<head>`: Bagian metadata dari dokumen, termasuk pengaturan karakter, viewport, dan link ke stylesheet CSS.
+-`<body>`: Bagian utama dari dokumen yang berisi konten halaman web.
 
-2. Bagian Header
-<header>: Memuat elemen navigasi yang tetap di bagian atas halaman.
-- <nav>: Membungkus menu navigasi.
-- <ul>: Daftar menu navigasi dengan elemen <li> sebagai item menu yang berisi link ke bagian berbeda dari halaman.
+## 2. Bagian Header
+-`<header>`: Memuat elemen navigasi yang tetap di bagian atas halaman.
+-`<nav>`: Membungkus menu navigasi.
+-`<ul>`: Daftar menu navigasi dengan elemen <li> sebagai item menu yang berisi link ke bagian berbeda dari halaman.
 
-3. Bagian Utama
-- <main>: Konten utama halaman web.
-- <section class="hallo">: Bagian sambutan dengan judul dan paragraf perkenalan, serta link ke profil media sosial.
-- <section id="about" class="about">: Bagian "Tentang Saya" yang berisi foto profil dan informasi pribadi.
-- <section id="education" class="education">: Bagian "Pendidikan" yang menampilkan riwayat pendidikan.
-- <section id="skills" class="skills">: Bagian "Keahlian" yang menampilkan keterampilan dalam pemrograman dan desain grafis.
-- <section id="contact" class="contact">: Bagian "Kontak" dengan formulir untuk menghubungi Anda serta link media sosial.
+## 3. Bagian Utama
+-`<main>`: Konten utama halaman web.
+-`<section class="hallo">`: Bagian sambutan dengan judul dan paragraf perkenalan, serta link ke profil media sosial.
+-`<section id="about" class="about">`: Bagian "Tentang Saya" yang berisi foto profil dan informasi pribadi.
+-`<section id="education" class="education">`: Bagian "Pendidikan" yang menampilkan riwayat pendidikan.
+-`<section id="skills" class="skills">`: Bagian "Keahlian" yang menampilkan keterampilan dalam pemrograman dan desain grafis.
+-`<section id="contact" class="contact">`: Bagian "Kontak" dengan formulir untuk menghubungi Anda serta link media sosial.
 
-4. Footer
-- <footer>: Bagian bawah halaman dengan teks hak cipta.
+## 4. Footer
+-`<footer>`: Bagian bawah halaman dengan teks hak cipta.
 
-CSS 
+# CSS 
+## 1. Aturan Umum
+-`{ margin: 0; padding: 0; box-sizing: border-box; }`: Menghapus margin dan padding default dari semua elemen dan menetapkan box-sizing agar padding dan border dimasukkan dalam total lebar dan tinggi elemen.
 
-1. Aturan Umum
-- * { margin: 0; padding: 0; box-sizing: border-box; }: Menghapus margin dan padding default dari semua elemen dan menetapkan box-sizing agar padding dan border dimasukkan dalam total lebar dan tinggi elemen.
-
-2. Gaya Body
+## 2. Gaya Body
 - body: Mengatur font, ukuran teks, warna, dan latar belakang halaman.
   
 3. Header
