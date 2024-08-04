@@ -43,7 +43,7 @@ let ubahData: { artist: string; songTitle: string } = {
 
 console.log(ubahData);
 ```
-## Penjelasan
+**Penjelasan**
 - `ubahData` objek baru yang dihasilkan dengan menggunakan spread operator (...).
 - Spread operator digunakan untuk menyalin semua properti dari objek lirikLagu.data ke dalam objek baru ubahData.
 - Setelah menyalin semua properti, properti artist dan songTitle diubah nilainya sesuai dengan yang ditentukan:
