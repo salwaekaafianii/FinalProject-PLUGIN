@@ -1,58 +1,31 @@
-let lirikLagu: {
-    status: boolean;
-    data: {
-        artist: string;
-        songTitle: string;
-        songLyrics: string;
-        songLyricsArr: string[];
-    };
-} = {
-    status: true,
-    data: {
-        artist: "Avenged Sevenfold",
-        songTitle: "Little Piece of Heaven",
-        songLyrics: "Before the story begins, is it such a sin\nFor me to take what's mine, until the end of time?\nWe were more than friends, before the story ends\nAnd I will take what's mine, create what God would never design\nOur love had been so strong for far too long",
-        songLyricsArr: [
-            "Before the story begins, is it such a sin",
-            "For me to take what's mine, until the end of time?",
-            "We were more than friends, before the story ends",
-            "And I will take what's mine, create what God would never design",
-            "Our love had been so strong for far too long",
-            // (lirik selanjutnya)
-        ]
+## Kode
+
+```typescript
+function printTriangle(height: number): void {
+    for (let i = 0; i < height; i++) {
+        console.log('*'.repeat(i + 1));
     }
-};
-    - lirikLagu : variabel bertipe objek yang memiliki dua properti: status dan data.
-        - status : tipe boolean yang menunjukkan apakah data lirik lagu valid atau tidak.
-        - data : objek yang memuat informasi mengenai lagu, dengan properti:
-            - artist (string): Nama artis.
-            - songTitle (string): Judul lagu.
-            - songLyrics (string): Lirik lagu dalam format string.
-            - songLyricsArr (array of string): Lirik lagu dalam bentuk array, setiap elemen adalah baris lirik.
+}
 
-SOAL 2A
-
-let ubahData: { artist: string; songTitle: string } = {
-    ...lirikLagu.data,
-    artist: "Salwa Eka Afiani",
-    songTitle: "UI UX Designer"
-};
-    - ubahData : variabel bertipe objek baru yang dihasilkan dengan menggunakan spread operator (...).
-    - Spread operator digunakan untuk menyalin semua properti dari objek lirikLagu.data ke dalam objek baru ubahData.
-    - Setelah menyalin semua properti, properti artist dan songTitle diubah nilainya sesuai dengan yang ditentukan:
-        - artist diubah menjadi "Salwa Eka Afiani".
-        - songTitle diubah menjadi "UI UX Designer".        
-        
-console.log(ubahData);
-    - console.log(ubahData) fungsi yang digunakan untuk menampilkan objek ubahData ke konsol, sehingga kita bisa melihat hasil perubahan yang telah dibuat.
-
-SOAL 2B
-
-let ambilData: string = lirikLagu.data.songLyricsArr[1];
-console.log(ambilData);
-   
-    - ambilData : variabel yang menyimpan baris lirik lagu yang diambil dari array songLyricsArr.
-    - lirikLagu.data.songLyricsArr[1] :  digunakan untuk mengambil elemen pada indeks ke-1 dari array tersebut. Karena indeks dimulai dari 0, maka elemen yang diambil adalah baris kedua dari lirik lagu. 
-    - console.log(ambilData); fungsi yang akan mencetak baris kedua dari lirik lagu ke konsol.
+printTriangle(7);
 
 
+## Penjelasan
+
+- **function printTriangle(height: number): void**  
+  Mendeklarasikan sebuah fungsi bernama `printTriangle` yang menerima satu parameter `height` bertipe `number` dan tidak mengembalikan nilai (`void`).
+
+- **height**  
+  Parameter yang menentukan tinggi dari segitiga yang akan dicetak.
+
+- **Loop for**  
+  Dimulai dengan `let i = 0`, yang berarti iterasi pertama dari loop akan dimulai dengan `i` setara dengan 0. Loop akan terus berlanjut selama `i < height`. Dalam contoh ini, `height` adalah 7, jadi loop akan berlanjut sampai `i` mencapai 6 (karena loop akan berhenti ketika `i` mencapai atau melebihi nilai `height`). Setiap iterasi loop, `i` akan bertambah satu (`i++`).
+
+- **console.log('*'.repeat(i + 1))**  
+  Perintah untuk mencetak baris pada konsol. `' * '.repeat(i + 1)` menghasilkan string yang terdiri dari karakter bintang (`*`) yang diulang sebanyak `i + 1` kali. 
+  - Misalnya, jika `i` adalah 0, `' * '.repeat(1)` menghasilkan satu bintang: `*`.
+  - Jika `i` adalah 1, `' * '.repeat(2)` menghasilkan dua bintang: `**`.
+  - Proses ini berlanjut dengan menambahkan satu bintang pada setiap baris berikutnya sesuai dengan nilai `i`.
+
+- **printTriangle(7)**  
+  Memanggil fungsi `printTriangle` dengan argumen 7. Ini berarti fungsi akan mencetak segitiga dengan tinggi 7 baris, dengan setiap baris bertambah satu bintang dari baris sebelumnya.
