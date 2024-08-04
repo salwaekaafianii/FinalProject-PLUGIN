@@ -1,12 +1,12 @@
 HTML
 1. Struktur Umum
-- <!DOCTYPE html>: Mendefinisikan dokumen ini sebagai HTML5.
-- <html lang="id">: Tag root yang menentukan bahasa halaman ini adalah Bahasa Indonesia.
-- <head>: Bagian metadata dari dokumen, termasuk pengaturan karakter, viewport, dan link ke stylesheet CSS.
-- <body>: Bagian utama dari dokumen yang berisi konten halaman web.
+<!DOCTYPE html>: Mendefinisikan dokumen ini sebagai HTML5.
+<html lang="id">: Tag root yang menentukan bahasa halaman ini adalah Bahasa Indonesia.
+<head>: Bagian metadata dari dokumen, termasuk pengaturan karakter, viewport, dan link ke stylesheet CSS.
+<body>: Bagian utama dari dokumen yang berisi konten halaman web.
 
 2. Bagian Header
-- <header>: Memuat elemen navigasi yang tetap di bagian atas halaman.
+<header>: Memuat elemen navigasi yang tetap di bagian atas halaman.
 - <nav>: Membungkus menu navigasi.
 - <ul>: Daftar menu navigasi dengan elemen <li> sebagai item menu yang berisi link ke bagian berbeda dari halaman.
 
